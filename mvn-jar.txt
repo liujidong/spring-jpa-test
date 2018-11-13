@@ -1,0 +1,2 @@
+通过window的运行窗口（win键+R），输入cmd进入，再执行导入命令
+mvn install:install-file -Dfile=d:\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2 -Dpackaging=jar
