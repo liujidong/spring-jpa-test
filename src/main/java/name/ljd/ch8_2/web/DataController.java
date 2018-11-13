@@ -87,4 +87,10 @@ public class DataController {
 		Page<Person> pagePeople = personRepository.findAll(new PageRequest(1, 2));
 		return pagePeople;
 	}
+	//测试自定义查询
+	@RequestMapping("/auto")
+	public Page<Person> auto(Person person){
+		Page<Person> pagePeople = personRepository.findByAuto(person,new PageRequest(0, 10));
+		return pagePeople;
+	}
 }
