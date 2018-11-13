@@ -41,9 +41,9 @@
 		</dependency>
 		<!-- add new -->
 		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2</version>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derbyclient</artifactId>
+			<version>10.11.1.1</version>
 		</dependency>
 	</dependencies>
 
